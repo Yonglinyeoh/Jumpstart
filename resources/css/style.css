@@ -1,0 +1,139 @@
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+}
+
+.navbar {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+/*Override navbar defaults*/
+.navbar .navbar-nav > .active a,
+.navbar-default .navbar-nav > .active > a:hover{
+  background-color: inherit;
+  color:  color: #399bd1;
+}
+
+/*Jumbotron*/
+.jumbotron-bike{
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+.jumbotron-flowers{
+  background-image: url("../images/jumbotron-flowers.jpg");
+}
+.jumbotron-beer{
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+.jumbotron-duffel{
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+.jumbotron{
+  color: white;
+  height: 44rem;
+  margin: 0 auto;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  text-shadow:  -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+}
+.jumbotron h1{
+  padding-top: 11.85rem;
+  font-family: Monoton;
+  font-size: 7.1rem;
+}
+.jumbotron p{
+  margin: 0 auto;
+  width: 51.3rem;
+}
+.relative-wrapper {
+  position: relative;
+  bottom: 16rem;
+  text-align: center;
+}
+.btn-primary{
+  width: 11.4rem;
+  padding: 1.3rem 0;
+  margin-top: 2.8rem;
+  background-color:#399bd1;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+/*General Image Container */
+.image-container img{
+  opacity: 0.7;
+  transition: transform .5s,
+              opacity .5s;
+  transition: transform .5s,
+              opacity .5s;
+}
+.image-container img:hover{
+  opacity:1;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+/*Featured Project*/
+.featured-project{
+  margin-top: 4rem;
+}
+.featured-project .image-container{
+  height: 19rem;
+  margin-top: 20px;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+}
+.categories ul {
+  color: rgba(0, 0, 0, 0.7);
+}
+/*Project*/
+.projects .image-container{
+  height: 13rem;
+  overflow: hidden;
+}
+.projects {
+  padding-bottom: 5.85rem;
+}
+/*fonts*/
+h3{
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+#blue{
+  color: #399bd1;
+}
+/*Footer*/
+.help strong{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.4 rem;
+}
+.help p{
+  max-width: 42rem;
+  padding: 1.4rem 0;
+  margin: 0 auto;
+}
+.help{
+  text-align: center;
+  padding: 5.2rem 0;
+  background-color: #f3f3f3;
+}
+@media only screen and (max-width: 767px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .jumbotron h1 {
+    font-size: 4rem;
+  }
+}
